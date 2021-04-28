@@ -1,0 +1,7 @@
+pip install
+virtualenv
+django install
+database
+how to create new project
+model and template
+why migration occurs
