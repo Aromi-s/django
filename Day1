@@ -1,0 +1,46 @@
+python@python-Inspiron-3542:~$ cd Documents
+python@python-Inspiron-3542:~/Documents$ spect_env/scripts/activate
+bash: spect_env/scripts/activate: No such file or directory
+python@python-Inspiron-3542:~/Documents$ spect_env\scripts\activate
+spect_envscriptsactivate: command not found
+python@python-Inspiron-3542:~/Documents$ source spect_env/bin/activate
+(spect_env) python@python-Inspiron-3542:~/Documents$ django-admin startproject shopping
+(spect_env) python@python-Inspiron-3542:~/Documents$ cd shopping
+(spect_env) python@python-Inspiron-3542:~/Documents/shopping$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 13 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+April 28, 2021 - 16:29:40
+Django version 1.11.29, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C(spect_env) python@python-Inspiron-3542:~/Documents/shopping$ python manage.pyigrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying sessions.0001_initial... OK
+(spect_env) python@python-Inspiron-3542:~/Documents/shopping$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 28, 2021 - 16:30:47
+Django version 1.11.29, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+   
