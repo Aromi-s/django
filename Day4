@@ -1,0 +1,150 @@
+python@python-Inspiron-3542:~$ cd Documents
+python@python-Inspiron-3542:~/Documents$ source spect_env/bin/activate
+(spect_env) python@python-Inspiron-3542:~/Documents$ cd eshop
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2021 - 02:34:23
+Django version 1.11.29, using settings 'eshop.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fe8115d6150>
+Traceback (most recent call last):
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    autoreload.raise_last_exception()
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/python/Documents/eshop/master/models.py", line 8
+    class FeedbackModel1(models.Model)
+                                     ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f4afb92b150>
+Traceback (most recent call last):
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    autoreload.raise_last_exception()
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/python/Documents/eshop/master/models.py", line 8
+    class FeedbackModel(models.Model)
+                                    ^
+SyntaxError: invalid syntax
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py runserver
+Unhandled exception in thread started by <function wrapper at 0x7fe80ba05150>
+Traceback (most recent call last):
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    autoreload.raise_last_exception()
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/home/python/Documents/spect_env/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/python/Documents/eshop/master/models.py", line 8
+    class FeedbackModel(models.Model)
+                                    ^
+SyntaxError: invalid syntax
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2021 - 03:29:43
+Django version 1.11.29, using settings 'eshop.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py makemigrations
+Unknown command: 'makakemigrations'
+Type 'manage.py help' for usage.
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py makemigrations
+Migrations for 'master':
+  master/migrations/0001_initial.py
+    - Create model FeedbackModel
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python maanage.py migrate
+python: can't open file 'maanage.py': [Errno 2] No such file or directory
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, master, sessions
+Running migrations:
+  Applying master.0001_initial... OK
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py makemigrations
+You are trying to add a non-nullable field 'place' to feedbackmodel without a default; we can't do that (the database needs something to populate existing rows).
+Please select a fix:
+ 1) Provide a one-off default now (will be set on all existing rows with a null value for this column)
+ 2) Quit, and let me add a default in models.py
+Select an option: 1
+Please enter the default value now, as valid Python
+The datetime and django.utils.timezone modules are available, so you can do e.g. timezone.now
+Type 'exit' to exit this prompt
+>>> 'kottayam'
+Migrations for 'master':
+  master/migrations/0002_feedbackmodel_place.py
+    - Add field place to feedbackmodel
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, master, sessions
+Running migrations:
+  Applying master.0002_feedbackmodel_place... OK
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 06, 2021 - 04:31:26
+Django version 1.11.29, using settings 'eshop.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[06/May/2021 04:32:22] "GET / HTTP/1.1" 404 2117
+Not Found: /favicon.ico
+[06/May/2021 04:32:23] "GET /favicon.ico HTTP/1.1" 404 2168
+[06/May/2021 04:32:34] "GET /admin/ HTTP/1.1" 302 0
+[06/May/2021 04:32:34] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[06/May/2021 04:32:34] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[06/May/2021 04:32:34] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[06/May/2021 04:32:34] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[06/May/2021 04:32:34] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[06/May/2021 04:32:34] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ $ python manage.py makemigrations
+Unknown command: 'y'
+Type 'manage.py help' for usage.
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py makemigrations
+Migrations for 'master':
+  master/migrations/0003_auto_20210506_0450.py
+    - Alter field contact on feedbackmodel
+    - Alter field place on feedbackmodel
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, master, sessions
+Running migrations:
+  Applying master.0003_auto_20210506_0450... OK
+(spect_env) python@python-Inspiron-3542:~/Documents/eshop$ 
